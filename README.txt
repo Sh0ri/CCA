@@ -1,0 +1,1 @@
+added item_interact_obj class for more clarity
