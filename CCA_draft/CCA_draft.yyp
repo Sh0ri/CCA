@@ -183,6 +183,14 @@
             }
         },
         {
+            "Key": "caecb92d-11ff-4729-b1e8-c4161d0c7e15",
+            "Value": {
+                "id": "0906377e-e2e6-4a32-92e9-10d36874f079",
+                "resourcePath": "objects\\lampe_obj\\lampe_obj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "a0968325-e92c-4338-b85a-a4e1fdc99b31",
