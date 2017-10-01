@@ -1,1 +1,1 @@
-added item_interact_obj class for more clarity
+added interact_script class for more clarity
