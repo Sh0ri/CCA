@@ -1,1 +1,1 @@
-Ajout de la phase et des différentes intéractions pour chaque perso
+Amélioration de la phase avec l'ajout de la zone de texte
