@@ -1,1 +1,1 @@
-added is_interactive in perso_obj class
+interact script modified
