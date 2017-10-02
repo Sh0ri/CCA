@@ -5,16 +5,6 @@
     "name": "nate_obj",
     "eventList": [
         {
-            "id": "a49473af-a6dd-4b5a-a130-a96fd120b6a1",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": true,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "3d658416-efff-4279-b50d-5071b04546f6"
-        },
-        {
             "id": "7e9ef457-e0b3-4403-93dd-e1df50f1017f",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -22,6 +12,16 @@
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
+            "m_owner": "3d658416-efff-4279-b50d-5071b04546f6"
+        },
+        {
+            "id": "5e1a24a2-da73-4942-b4b5-7a8fd1ec8e56",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": true,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
             "m_owner": "3d658416-efff-4279-b50d-5071b04546f6"
         }
     ],
