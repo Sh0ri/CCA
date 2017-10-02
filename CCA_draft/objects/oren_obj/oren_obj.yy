@@ -1,22 +1,22 @@
 {
-    "id": "caecb92d-11ff-4729-b1e8-c4161d0c7e15",
+    "id": "1ab0d90b-c821-477d-9655-dfc11b81e525",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "lampe_obj",
+    "name": "oren_obj",
     "eventList": [
         {
-            "id": "7fc2458a-a06d-4be7-a879-73e2d891c78d",
+            "id": "c0a5dc06-d7e6-4a5e-a47e-cd72d9b114c5",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": true,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 73,
-            "eventtype": 8,
-            "m_owner": "caecb92d-11ff-4729-b1e8-c4161d0c7e15"
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "1ab0d90b-c821-477d-9655-dfc11b81e525"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
-    "parentObjectId": "2ca091d6-6ae0-4567-b393-2486cf38eac8",
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -31,6 +31,6 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "solid": false,
-    "spriteId": "a8a9a569-d8a7-4061-92c6-a55f34c8504b",
+    "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
 }

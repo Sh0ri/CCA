@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "1ab0d90b-c821-477d-9655-dfc11b81e525",
+            "Value": {
+                "id": "6cf6051f-a760-42e5-b3a8-1748c2127cb3",
+                "resourcePath": "objects\\oren_obj\\oren_obj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "280849f2-61e2-41c7-bea2-51667c2958bb",
             "Value": {
                 "id": "ddf3230a-525c-4111-b4fd-f957ace9e609",
@@ -183,6 +191,14 @@
             }
         },
         {
+            "Key": "a7655b8c-aae7-4869-91a8-86d5ea0b29aa",
+            "Value": {
+                "id": "1126d1ae-62b2-4c26-89f9-2db931c98900",
+                "resourcePath": "objects\\mia_obj\\mia_obj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a8a9a569-d8a7-4061-92c6-a55f34c8504b",
             "Value": {
                 "id": "a535b0d1-8ddc-4b55-b3ac-4b8af2f17f66",
@@ -244,6 +260,14 @@
                 "id": "a4ce9f76-10ea-4e10-b402-c97fc5105a02",
                 "resourcePath": "views\\e6fbeec5-b7ae-4dc9-876c-e615ec58e2b0.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "efb07106-95f1-4bd6-8c14-9091f5730b59",
+            "Value": {
+                "id": "7f021940-35dd-494f-8f30-af3d1a67606b",
+                "resourcePath": "objects\\camera_obj\\camera_obj.yy",
+                "resourceType": "GMObject"
             }
         }
     ],
