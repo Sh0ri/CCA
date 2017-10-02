@@ -207,6 +207,14 @@
             }
         },
         {
+            "Key": "71bc77b5-b075-44d1-a649-a7b1445b7e96",
+            "Value": {
+                "id": "b3e23e13-4083-410b-b421-16fd7691786a",
+                "resourcePath": "objects\\text_bar_obj\\text_bar_obj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "806a0f19-2ac6-4c5b-8704-4c5b4d038093",
             "Value": {
                 "id": "629e327b-7d84-4b4c-b8db-d69f1ecad99b",
@@ -319,11 +327,27 @@
             }
         },
         {
+            "Key": "ec6869dc-467c-4a01-baa2-1565b96e65df",
+            "Value": {
+                "id": "388055de-4f5f-4814-b5f2-d908a3afd7c6",
+                "resourcePath": "sprites\\text_bar_spr\\text_bar_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "efb07106-95f1-4bd6-8c14-9091f5730b59",
             "Value": {
                 "id": "7f021940-35dd-494f-8f30-af3d1a67606b",
                 "resourcePath": "objects\\camera_obj\\camera_obj.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "fb1922b6-51bf-4551-a868-a48e2698fdd0",
+            "Value": {
+                "id": "49dd0dda-dc04-48bc-8b13-f1392f25a907",
+                "resourcePath": "scripts\\find_phase_item_script\\find_phase_item_script.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -338,7 +362,8 @@
     "script_order": [
         "6c330a74-5f7f-4c64-b481-054b068b4cb3",
         "fd8f2b7a-740f-4c89-bf31-51562308de75",
-        "e25762ed-cdd1-4497-b622-153a70860084"
+        "e25762ed-cdd1-4497-b622-153a70860084",
+        "fb1922b6-51bf-4551-a868-a48e2698fdd0"
     ],
     "tutorial": ""
 }
