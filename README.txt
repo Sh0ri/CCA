@@ -1,0 +1,1 @@
+Ajout de la phase et des différentes intéractions pour chaque perso
