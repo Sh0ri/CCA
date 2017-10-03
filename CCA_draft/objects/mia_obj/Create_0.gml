@@ -15,3 +15,9 @@ id_perso = 3;
 actions_list[0] = "Inspect";
 actions_list[1] = "Photo";
 actions_list[2] = "Draw";
+
+/// @DnDAction : YoYo Games.Common.Execute_Code
+/// @DnDVersion : 1
+/// @DnDHash : 38F0085D
+/// @DnDArgument : "code" "move_queue=ds_queue_create();"
+move_queue=ds_queue_create();

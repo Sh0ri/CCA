@@ -15,3 +15,9 @@ id_perso = 2;
 actions_list[0] = "Inspect";
 actions_list[1] = "Destroy";
 actions_list[2] = "Hit";
+
+/// @DnDAction : YoYo Games.Common.Execute_Code
+/// @DnDVersion : 1
+/// @DnDHash : 4983E783
+/// @DnDArgument : "code" "move_queue = ds_queue_create();"
+move_queue = ds_queue_create();

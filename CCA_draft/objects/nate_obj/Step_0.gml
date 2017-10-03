@@ -22,18 +22,13 @@ if(keyboard_check(ord("Q")))
 
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
-<<<<<<< HEAD
-/// @DnDHash : 392A1EE1
-/// @DnDArgument : "code" "// React$(13_10)move_h = key_left + key_right;$(13_10)move_v = key_up + key_down;$(13_10)$(13_10)$(13_10)hsp = move_h * movespeed;$(13_10)vsp = move_v * movespeed;$(13_10)$(13_10)// Horizontal Collision$(13_10)if(place_meeting(x+hsp,y,wall_obj))$(13_10){$(13_10)    while(!place_meeting(x+sign(hsp),y,wall_obj))$(13_10)    {$(13_10)        x += sign(hsp);$(13_10)    }$(13_10)    hsp = 0;$(13_10)}$(13_10)$(13_10)x += hsp;$(13_10)$(13_10)// Vertical Collision$(13_10)if(place_meeting(x,y + vsp,wall_obj))$(13_10){$(13_10)    while(!place_meeting(x,y + sign(vsp),wall_obj))$(13_10)    {$(13_10)        y += sign(vsp);$(13_10)    }$(13_10)    vsp = 0;$(13_10)}$(13_10)$(13_10)y += vsp;$(13_10)$(13_10)$(13_10)// Commentaire de la bite$(13_10)$(13_10)"
-=======
 /// @DnDHash : 12206A96
-/// @DnDArgument : "code" "// React$(13_10)$(13_10)// Mouvement Nate $(13_10)$(13_10)if(ctrl_obj.id_perso == 1)$(13_10){$(13_10)		move_h = key_left + key_right;$(13_10)		move_v = key_up + key_down;$(13_10)$(13_10)		hsp = move_h * movespeed;$(13_10)		vsp = move_v * movespeed;$(13_10)		$(13_10)		// Horizontal Collision$(13_10)		if(place_meeting(x+hsp,y,wall_obj))$(13_10)		{$(13_10)		    while(!place_meeting(x+sign(hsp),y,wall_obj))$(13_10)		    {$(13_10)		        x += sign(hsp);$(13_10)		    }	$(13_10)		    hsp = 0;$(13_10)		}$(13_10)		if(place_meeting(x+hsp,y,item_interact_obj))$(13_10)		{$(13_10)			while(!place_meeting(x+sign(hsp),y,item_interact_obj))$(13_10)			    {$(13_10)			        x += sign(hsp);$(13_10)			    }$(13_10)			hsp = 0;$(13_10)		}	$(13_10)	$(13_10)		x += hsp;$(13_10)$(13_10)		// Vertical Collision$(13_10)		if(place_meeting(x,y + vsp,wall_obj))$(13_10)		{$(13_10)		    while(!place_meeting(x,y + sign(vsp),wall_obj))$(13_10)		    {$(13_10)		        y += sign(vsp);$(13_10)		    }$(13_10)$(13_10)		    vsp = 0;$(13_10)		}$(13_10)		if(place_meeting(x,y + vsp,item_interact_obj))$(13_10)		{$(13_10)			while(!place_meeting(x,y + sign(vsp),item_interact_obj))$(13_10)		    {$(13_10)		        y += sign(vsp);$(13_10)		    }$(13_10)		    vsp = 0;$(13_10)		}$(13_10)$(13_10)		y += vsp;$(13_10)	$(13_10)}$(13_10)$(13_10)/*$(13_10)// Horizontal Collision$(13_10)	if(place_meeting(x+hsp,y,wall_obj))$(13_10)	{$(13_10)	    while(!place_meeting(x+sign(hsp),y,wall_obj))$(13_10)	    {$(13_10)	        x += sign(hsp);$(13_10)	    }	$(13_10)	    hsp = 0;$(13_10)	}$(13_10)	if(place_meeting(x+hsp,y,item_interact_obj))$(13_10)	{$(13_10)		while(!place_meeting(x+sign(hsp),y,item_interact_obj))$(13_10)		    {$(13_10)		        x += sign(hsp);$(13_10)		    }$(13_10)		hsp = 0;$(13_10)	}	$(13_10)	$(13_10)	x += hsp;$(13_10)$(13_10)	// Vertical Collision$(13_10)	if(place_meeting(x,y + vsp,wall_obj))$(13_10)	{$(13_10)	    while(!place_meeting(x,y + sign(vsp),wall_obj))$(13_10)	    {$(13_10)	        y += sign(vsp);$(13_10)	    }$(13_10)$(13_10)	    vsp = 0;$(13_10)	}$(13_10)	if(place_meeting(x,y + vsp,item_interact_obj))$(13_10)	{$(13_10)		while(!place_meeting(x,y + sign(vsp),item_interact_obj))$(13_10)	    {$(13_10)	        y += sign(vsp);$(13_10)	    }$(13_10)	    vsp = 0;$(13_10)	}$(13_10)$(13_10)	y += vsp;$(13_10)*/$(13_10)$(13_10)"
->>>>>>> master
+/// @DnDArgument : "code" "// React$(13_10)$(13_10)// Mouvement Nate $(13_10)$(13_10)if(global.id_perso == 1 && phase_activated == false)$(13_10){$(13_10)		move_h = key_left + key_right;$(13_10)		move_v = key_up + key_down;$(13_10)$(13_10)		hsp = move_h * movespeed;$(13_10)		vsp = move_v * movespeed;$(13_10)		$(13_10)		// Horizontal Collision$(13_10)		if(place_meeting(x+hsp,y,wall_obj))$(13_10)		{$(13_10)		    while(!place_meeting(x+sign(hsp),y,wall_obj))$(13_10)		    {$(13_10)		        x += sign(hsp);$(13_10)		    }	$(13_10)		    hsp = 0;$(13_10)		}$(13_10)		if(place_meeting(x+hsp,y,item_interact_obj))$(13_10)		{$(13_10)			while(!place_meeting(x+sign(hsp),y,item_interact_obj))$(13_10)			    {$(13_10)			        x += sign(hsp);$(13_10)			    }$(13_10)			hsp = 0;$(13_10)		}	$(13_10)	$(13_10)		x += hsp;$(13_10)$(13_10)		// Vertical Collision$(13_10)		if(place_meeting(x,y + vsp,wall_obj))$(13_10)		{$(13_10)		    while(!place_meeting(x,y + sign(vsp),wall_obj))$(13_10)		    {$(13_10)		        y += sign(vsp);$(13_10)		    }$(13_10)$(13_10)		    vsp = 0;$(13_10)		}$(13_10)		if(place_meeting(x,y + vsp,item_interact_obj))$(13_10)		{$(13_10)			while(!place_meeting(x,y + sign(vsp),item_interact_obj))$(13_10)		    {$(13_10)		        y += sign(vsp);$(13_10)		    }$(13_10)		    vsp = 0;$(13_10)		}$(13_10)$(13_10)		y += vsp;$(13_10)	$(13_10)}$(13_10)$(13_10)else{$(13_10)	//Follow Players$(13_10)	if(global.id_perso==3){var perso = mia_obj;lel=perso.x-30}$(13_10)	else{var perso = oren_obj;lel=perso.x+30}$(13_10)	ds_queue_enqueue(move_queue,lel);$(13_10)	ds_queue_enqueue(move_queue, perso.y+130);$(13_10)	LAG_STEPS = 30;$(13_10)	if (ds_queue_size(move_queue) > LAG_STEPS*2) {$(13_10)		x=ds_queue_dequeue(move_queue);$(13_10)		y=ds_queue_dequeue(move_queue);		$(13_10)	}$(13_10)	if(irandom_range(1,100)<5){$(13_10)		x+=random_range(-15,15);$(13_10)		y+=random_range(-15,15);$(13_10)	}$(13_10)}$(13_10)$(13_10)/*$(13_10)// Horizontal Collision$(13_10)	if(place_meeting(x+hsp,y,wall_obj))$(13_10)	{$(13_10)	    while(!place_meeting(x+sign(hsp),y,wall_obj))$(13_10)	    {$(13_10)	        x += sign(hsp);$(13_10)	    }	$(13_10)	    hsp = 0;$(13_10)	}$(13_10)	if(place_meeting(x+hsp,y,item_interact_obj))$(13_10)	{$(13_10)		while(!place_meeting(x+sign(hsp),y,item_interact_obj))$(13_10)		    {$(13_10)		        x += sign(hsp);$(13_10)		    }$(13_10)		hsp = 0;$(13_10)	}	$(13_10)	$(13_10)	x += hsp;$(13_10)$(13_10)	// Vertical Collision$(13_10)	if(place_meeting(x,y + vsp,wall_obj))$(13_10)	{$(13_10)	    while(!place_meeting(x,y + sign(vsp),wall_obj))$(13_10)	    {$(13_10)	        y += sign(vsp);$(13_10)	    }$(13_10)$(13_10)	    vsp = 0;$(13_10)	}$(13_10)	if(place_meeting(x,y + vsp,item_interact_obj))$(13_10)	{$(13_10)		while(!place_meeting(x,y + sign(vsp),item_interact_obj))$(13_10)	    {$(13_10)	        y += sign(vsp);$(13_10)	    }$(13_10)	    vsp = 0;$(13_10)	}$(13_10)$(13_10)	y += vsp;$(13_10)*/$(13_10)$(13_10)"
 // React
 
 // Mouvement Nate 
 
-if(ctrl_obj.id_perso == 1)
+if(global.id_perso == 1 && phase_activated == false)
 {
 		move_h = key_left + key_right;
 		move_v = key_up + key_down;
@@ -84,12 +79,23 @@ if(ctrl_obj.id_perso == 1)
 	
 }
 
-<<<<<<< HEAD
-y += vsp;
+else{
+	//Follow Players
+	if(global.id_perso==3){var perso = mia_obj;lel=perso.x-30}
+	else{var perso = oren_obj;lel=perso.x+30}
+	ds_queue_enqueue(move_queue,lel);
+	ds_queue_enqueue(move_queue, perso.y+130);
+	LAG_STEPS = 30;
+	if (ds_queue_size(move_queue) > LAG_STEPS*2) {
+		x=ds_queue_dequeue(move_queue);
+		y=ds_queue_dequeue(move_queue);		
+	}
+	if(irandom_range(1,100)<5){
+		x+=random_range(-15,15);
+		y+=random_range(-15,15);
+	}
+}
 
-
-// Commentaire de la bite
-=======
 /*
 // Horizontal Collision
 	if(place_meeting(x+hsp,y,wall_obj))
@@ -134,4 +140,3 @@ y += vsp;
 */
 
 /**/
->>>>>>> master
