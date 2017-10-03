@@ -12,8 +12,19 @@ if(nate_obj.phase_activated == true)
 	/// @DnDParent : 1893D969
 	
 	nate_obj.phase_activated = false;
-	nate_obj.phase_item_name = text;
 	
+	items_found = find_phase_items_script(text);
+	//show_debug_message(items_found);
+	
+	
+	// For all items found we illuminate them
+	for(i = 0; i < array_length_1d(items_found); i++)
+	{
+		with(items_found[i])
+			highlight = true;
+	}
+	
+	// We then destroy the text bar object
 	with(text_bar_obj)
 	 instance_destroy();
 	 

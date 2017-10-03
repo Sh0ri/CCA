@@ -1,1 +1,1 @@
-Amélioration de la phase avec l'ajout de la zone de texte
+La phase permet de trouver les objets avec le nom et de les illuminer
