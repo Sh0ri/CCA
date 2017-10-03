@@ -8,5 +8,5 @@ script_execute(init_heritage_script);
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 23138841
-/// @DnDArgument : "code" "name = "lamp";"
-name = "lamp";
+/// @DnDArgument : "code" "string_name = "lamp";"
+string_name = "lamp";
