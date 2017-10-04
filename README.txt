@@ -1,1 +1,1 @@
-La phase permet de trouver les objets avec le nom et de les illuminer
+Merge avec la phase, l'inspection des items et le sprite du Kurioscope
