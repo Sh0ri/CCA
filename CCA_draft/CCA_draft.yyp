@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "0a837c9e-ee36-49f4-81cc-df57ca197d5d",
+            "Value": {
+                "id": "f71ec882-ddf7-455e-bda7-750fe6c93315",
+                "resourcePath": "scripts\\inspect_script\\inspect_script.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "0f569347-4287-4048-8569-d1b1fe37107c",
             "Value": {
                 "id": "e75de440-dbf6-41d8-adf7-a690428d6b74",
@@ -159,6 +167,22 @@
             }
         },
         {
+            "Key": "53fb9cab-5f5d-43ce-85f1-98b4993fba4b",
+            "Value": {
+                "id": "f646f086-2348-4d58-a747-08a1afc757bb",
+                "resourcePath": "scripts\\action_script\\action_script.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "55d4d112-7d16-4efd-ab3e-1a8ea0ed3271",
+            "Value": {
+                "id": "6a937b5e-2b60-43be-9950-6cb3ef94a580",
+                "resourcePath": "scripts\\get_vk_numpad_script\\get_vk_numpad_script.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "5a060dda-a5d1-4fad-9c01-e909a47f26ef",
             "Value": {
                 "id": "63c77189-1411-480a-826e-25e30ac16a77",
@@ -231,6 +255,7 @@
             }
         },
         {
+<<<<<<< HEAD
             "Key": "965ca780-6493-49fc-be8f-47adba292d8c",
             "Value": {
                 "id": "6cb388aa-00e1-43fd-b1ea-b691d2b164b4",
@@ -243,6 +268,20 @@
             "Value": {
                 "id": "402cfe50-1d05-49c6-83d5-eb4c82a72510",
                 "resourcePath": "sprites\\kurioscope_spr\\kurioscope_spr.yy",
+=======
+            "Key": "85700adf-0a51-4f18-8809-6bc0fb6e61db",
+            "Value": {
+                "id": "6c564e42-4a0d-4fd3-9b84-1e053449f9ac",
+                "resourcePath": "scripts\\get_current_perso_script\\get_current_perso_script.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "965ca780-6493-49fc-be8f-47adba292d8c",
+            "Value": {
+                "id": "6cb388aa-00e1-43fd-b1ea-b691d2b164b4",
+                "resourcePath": "sprites\\mia_spr\\mia_spr.yy",
+>>>>>>> Shori
                 "resourceType": "GMSprite"
             }
         },
@@ -380,7 +419,15 @@
         "fd8f2b7a-740f-4c89-bf31-51562308de75",
         "e25762ed-cdd1-4497-b622-153a70860084",
         "71210531-eb48-4b28-aefd-9d1483e9b2d2",
+<<<<<<< HEAD
         "e3cf90e0-7353-440a-89be-fa59e7bdad21"
+=======
+        "e3cf90e0-7353-440a-89be-fa59e7bdad21",
+        "53fb9cab-5f5d-43ce-85f1-98b4993fba4b",
+        "0a837c9e-ee36-49f4-81cc-df57ca197d5d",
+        "85700adf-0a51-4f18-8809-6bc0fb6e61db",
+        "55d4d112-7d16-4efd-ab3e-1a8ea0ed3271"
+>>>>>>> Shori
     ],
     "tutorial": ""
 }

@@ -52,6 +52,7 @@
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 2,
             "eventtype": 2,
+<<<<<<< HEAD
             "m_owner": "3d658416-efff-4279-b50d-5071b04546f6"
         },
         {
@@ -62,6 +63,8 @@
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 75,
             "eventtype": 9,
+=======
+>>>>>>> Shori
             "m_owner": "3d658416-efff-4279-b50d-5071b04546f6"
         }
     ],

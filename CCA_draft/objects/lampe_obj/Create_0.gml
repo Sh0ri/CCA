@@ -8,5 +8,12 @@ script_execute(init_heritage_script);
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 23138841
+<<<<<<< HEAD
 /// @DnDArgument : "code" "string_name = "lamp";"
 string_name = "lamp";
+=======
+/// @DnDArgument : "code" "string_name = "lamp";$(13_10)available_actions = ["Inspect","Photo","Scan","Destroy"];$(13_10)inspect_text = "OMG je suis une lampe haled\nPress Enter to exit...";"
+string_name = "lamp";
+available_actions = ["Inspect","Photo","Scan","Destroy"];
+inspect_text = "OMG je suis une lampe haled\nPress Enter to exit...";
+>>>>>>> Shori
