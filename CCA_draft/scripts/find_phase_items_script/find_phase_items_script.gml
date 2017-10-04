@@ -1,9 +1,5 @@
 
-<<<<<<< HEAD
 _inputName = string_lower(argument0);
-=======
-_inputName = argument0;
->>>>>>> Shori
 
 _finalResult = "";
 

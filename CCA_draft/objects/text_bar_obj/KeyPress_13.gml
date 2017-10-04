@@ -11,17 +11,11 @@ if(nate_obj.phase_activated == true)
 	/// @DnDApplyTo : 71bc77b5-b075-44d1-a649-a7b1445b7e96
 	/// @DnDParent : 1893D969
 	
-<<<<<<< HEAD
-=======
-	nate_obj.phase_activated = false;
-	
->>>>>>> Shori
 	items_found = find_phase_items_script(text);
 	//show_debug_message(items_found);
 	
 	
 	// For all items found we illuminate them
-<<<<<<< HEAD
 	if(array_length_1d(items_found) > 0)
 	{
 		nate_obj.phase_activated = false;
@@ -43,16 +37,4 @@ if(nate_obj.phase_activated == true)
 		text = "";
 		keyboard_string = "";
 	 }
-=======
-	for(i = 0; i < array_length_1d(items_found); i++)
-	{
-		with(items_found[i])
-			highlight = true;
-	}
-	
-	// We then destroy the text bar object
-	with(text_bar_obj)
-	 instance_destroy();
-	 
->>>>>>> Shori
 }

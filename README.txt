@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-Finalisation de la phase
-=======
-action script added
->>>>>>> Shori
+Merge avec la phase, l'inspection des items et le sprite du Kurioscope

@@ -4,9 +4,5 @@
     "mvc": "1.0",
     "name": "interact_script",
     "IsCompatibility": false,
-<<<<<<< HEAD
     "IsDnD": true
-=======
-    "IsDnD": false
->>>>>>> Shori
 }
