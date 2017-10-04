@@ -239,6 +239,14 @@
             }
         },
         {
+            "Key": "998c38c1-eb62-402a-a556-89c0ff7e5f03",
+            "Value": {
+                "id": "402cfe50-1d05-49c6-83d5-eb4c82a72510",
+                "resourcePath": "sprites\\kurioscope_spr\\kurioscope_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "9f6b92f3-b91e-47ac-938a-3177bbc46a07",
             "Value": {
                 "id": "034cf1d1-28fe-429a-80fc-2053cfe174a0",
@@ -274,7 +282,7 @@
             "Key": "b12d5dbc-964f-4484-bd07-74e237654630",
             "Value": {
                 "id": "8e0e701d-5202-490a-9ad9-6a624141e06d",
-                "resourcePath": "objects\\kurioscope_spr\\kurioscope_spr.yy",
+                "resourcePath": "objects\\kurioscope_obj\\kurioscope_obj.yy",
                 "resourceType": "GMObject"
             }
         },
