@@ -1,1 +1,1 @@
-Merge avec la phase, l'inspection des items et le sprite du Kurioscope
+Ajout de l'objet Kurioscope et de la liste des photos dans Nate
