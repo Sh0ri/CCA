@@ -1,1 +1,1 @@
-Merge avec la phase, l'inspection des items et le sprite du Kurioscope
+Kurioscope bien avancé
