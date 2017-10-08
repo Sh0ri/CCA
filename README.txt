@@ -1,1 +1,1 @@
-Ajout de l'objet Kurioscope et de la liste des photos dans Nate
+correction action script
