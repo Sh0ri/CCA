@@ -1,1 +1,1 @@
-Kurioscope bien avancé
+Ajout de la mécanique de dialogue en mode cutscene et du dialogue de fond
