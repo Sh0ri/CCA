@@ -1,1 +1,1 @@
-correction action script
+Ajout de la mécanique de dialogue en mode cutscene et en mode dialogue de fond
