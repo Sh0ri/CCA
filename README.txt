@@ -1,1 +1,1 @@
-Ajout de la transition de Room
+Changement des touches d'actions
