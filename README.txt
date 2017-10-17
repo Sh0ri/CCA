@@ -1,1 +1,1 @@
-Changement des touches d'actions
+Changement du sprite de Nate
